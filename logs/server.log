@@ -1,15 +1,17 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [123] using StatReload
-INFO:     Started server process [125]
+INFO:     Started reloader process [170] using StatReload
+INFO:     Started server process [172]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:37648 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:45154 - "POST /seed HTTP/1.1" 500 Internal Server Error
-INFO:     172.20.0.1:45162 - "POST /seed HTTP/1.1" 500 Internal Server Error
-INFO:     172.20.0.1:45142 - "POST /products/query HTTP/1.1" 200 OK
-INFO:     172.20.0.1:45144 - "POST /products/query HTTP/1.1" 200 OK
-INFO:     172.20.0.1:45154 - "POST /seed HTTP/1.1" 500 Internal Server Error
-INFO:     172.20.0.1:45142 - "POST /seed HTTP/1.1" 500 Internal Server Error
-INFO:     172.20.0.1:45144 - "POST /products/query HTTP/1.1" 200 OK
-INFO:     172.20.0.1:45162 - "POST /products/query HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48740 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:48746 - "OPTIONS /products/query HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48766 - "POST /seed HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:48750 - "POST /seed HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:48774 - "OPTIONS /products/query HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48750 - "POST /products/query HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48774 - "POST /products/query HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41972 - "POST /seed HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:41986 - "POST /seed HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:41966 - "POST /products/query HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41984 - "POST /products/query HTTP/1.1" 200 OK
